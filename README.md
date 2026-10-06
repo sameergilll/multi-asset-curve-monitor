@@ -4,7 +4,9 @@ A production-style Python analytics project for bootstrapping zero-coupon curves
 
 > Built as a portfolio project to demonstrate practical markets / trading analytics: curve construction, DV01 and key-rate risk, FX swap pricing, basis monitoring, public-data ingestion, testing, and dashboard delivery.
 
-![Dashboard preview](assets/dashboard_preview.png)
+![Dashboard preview](./assets/dashboard_preview.svg)
+
+[Open the dashboard preview directly](./assets/dashboard_preview.svg)
 
 ## What the project does
 
@@ -48,7 +50,7 @@ Public / bundled market data
 ## Quick start
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/sameergilll/multi-asset-curve-monitor.git
 cd multi-asset-curve-monitor
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
