@@ -15,7 +15,8 @@ def test_bond_pv_positive():
 
 
 def test_zcb_pv_matches_discount():
-    c=make_curve(); z=ZeroCouponBond(100,2)
+    c = make_curve()
+    z = ZeroCouponBond(100, 2)
     assert abs(z.pv(c)-100*c.discount(2)) < 1e-9
 
 
@@ -34,5 +35,7 @@ def test_positive_rate_shock_loses_money():
 
 
 def test_portfolio_pv_additive():
-    c=make_curve(); a=FixedRateBond(1_000_000,5,0.04); b=FixedRateBond(2_000_000,5,0.04)
+    c = make_curve()
+    a = FixedRateBond(1_000_000, 5, 0.04)
+    b = FixedRateBond(2_000_000, 5, 0.04)
     assert abs(portfolio_pv([a,b],c) - a.pv(c)-b.pv(c)) < 1e-6
