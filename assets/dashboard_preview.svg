@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#0e1117"/>
+<rect x="0" y="0" width="1200" height="74" fill="#151922"/>
+<text x="42" y="45" fill="#f4f4f5" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700">Multi-Asset Curve &amp; Cross-Currency Monitor</text>
+<text x="958" y="44" fill="#8b93a7" font-family="Arial,Helvetica,sans-serif" font-size="16">Deterministic demo</text>
+<rect x="36" y="103" rx="12" ry="12" width="260" height="112" fill="#171b24" stroke="#2b3240"/>
+<text x="57" y="136" fill="#9ca3af" font-family="Arial" font-size="16">USD Portfolio PV</text>
+<text x="57" y="183" fill="#f8fafc" font-family="Arial" font-size="31" font-weight="700">$17.5m</text>
+<rect x="316" y="103" rx="12" ry="12" width="260" height="112" fill="#171b24" stroke="#2b3240"/>
+<text x="337" y="136" fill="#9ca3af" font-family="Arial" font-size="16">Parallel DV01</text>
+<text x="337" y="183" fill="#f8fafc" font-family="Arial" font-size="31" font-weight="700">-$10,959 / bp</text>
+<rect x="596" y="103" rx="12" ry="12" width="260" height="112" fill="#171b24" stroke="#2b3240"/>
+<text x="617" y="136" fill="#9ca3af" font-family="Arial" font-size="16">EUR/USD CIP Basis</text>
+<text x="617" y="183" fill="#f8fafc" font-family="Arial" font-size="31" font-weight="700">+3.5 bp</text>
+<rect x="876" y="103" rx="12" ry="12" width="288" height="112" fill="#171b24" stroke="#2b3240"/>
+<text x="897" y="136" fill="#9ca3af" font-family="Arial" font-size="16">Signal</text>
+<text x="897" y="182" fill="#d1fae5" font-family="Arial" font-size="26" font-weight="700">Within threshold</text>
+<rect x="36" y="242" rx="12" ry="12" width="728" height="414" fill="#171b24" stroke="#2b3240"/>
+<text x="58" y="278" fill="#f4f4f5" font-family="Arial" font-size="21" font-weight="700">Bootstrapped Zero Curves</text>
+<line x1="88" y1="596" x2="722" y2="596" stroke="#4b5563"/>
+<line x1="88" y1="310" x2="88" y2="596" stroke="#4b5563"/>
+<g fill="#8791a5" font-family="Arial" font-size="13"><text x="84" y="620">0</text><text x="284" y="620">10Y</text><text x="493" y="620">20Y</text><text x="690" y="620">30Y</text><text x="50" y="590">2%</text><text x="50" y="495">3%</text><text x="50" y="400">4%</text><text x="50" y="315">5%</text></g>
+<path d="M88 390 C155 420 215 445 275 430 S395 392 460 382 S585 365 722 340" fill="none" stroke="#60a5fa" stroke-width="4"/>
+<path d="M88 515 C170 527 225 522 290 503 S420 470 505 446 S625 425 722 414" fill="none" stroke="#34d399" stroke-width="4"/>
+<path d="M88 438 C155 460 230 472 300 459 S430 425 515 400 S625 379 722 364" fill="none" stroke="#f59e0b" stroke-width="4"/>
+<circle cx="510" cy="382" r="5" fill="#60a5fa"/><circle cx="510" cy="446" r="5" fill="#34d399"/><circle cx="510" cy="400" r="5" fill="#f59e0b"/>
+<g font-family="Arial" font-size="15"><rect x="565" y="276" width="12" height="12" fill="#60a5fa"/><text x="584" y="287" fill="#cbd5e1">USD</text><rect x="625" y="276" width="12" height="12" fill="#34d399"/><text x="644" y="287" fill="#cbd5e1">EUR</text><rect x="685" y="276" width="12" height="12" fill="#f59e0b"/><text x="704" y="287" fill="#cbd5e1">GBP</text></g>
+<rect x="785" y="242" rx="12" ry="12" width="379" height="195" fill="#171b24" stroke="#2b3240"/>
+<text x="807" y="278" fill="#f4f4f5" font-family="Arial" font-size="21" font-weight="700">Key-Rate DV01</text>
+<g fill="#60a5fa"><rect x="827" y="360" width="42" height="38" rx="4"/><rect x="897" y="342" width="42" height="56" rx="4"/><rect x="967" y="293" width="42" height="105" rx="4"/><rect x="1037" y="274" width="42" height="124" rx="4"/></g>
+<g fill="#9ca3af" font-family="Arial" font-size="13"><text x="840" y="421">1Y</text><text x="910" y="421">2Y</text><text x="980" y="421">5Y</text><text x="1047" y="421">10Y</text></g>
+<rect x="785" y="459" rx="12" ry="12" width="379" height="197" fill="#171b24" stroke="#2b3240"/>
+<text x="807" y="495" fill="#f4f4f5" font-family="Arial" font-size="21" font-weight="700">Scenario Stress P&amp;L</text>
+<text x="807" y="537" fill="#9ca3af" font-family="Arial" font-size="15">Parallel +25 bp</text><text x="1100" y="537" text-anchor="end" fill="#fca5a5" font-family="Arial" font-size="17" font-weight="700">-$273k</text>
+<rect x="807" y="551" width="257" height="11" rx="5" fill="#374151"/><rect x="807" y="551" width="205" height="11" rx="5" fill="#f87171"/>
+<text x="807" y="600" fill="#9ca3af" font-family="Arial" font-size="15">10s steepener</text><text x="1100" y="600" text-anchor="end" fill="#fde68a" font-family="Arial" font-size="17" font-weight="700">-$141k</text>
+<rect x="807" y="614" width="257" height="11" rx="5" fill="#374151"/><rect x="807" y="614" width="116" height="11" rx="5" fill="#fbbf24"/>
+</svg>
